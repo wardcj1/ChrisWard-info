@@ -2,7 +2,6 @@ body,
 html {
     width: 100%;
     height: 100%;
-    
 }
 
 body,
@@ -12,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: white;
 }
@@ -23,39 +22,46 @@ h6 {
     background: rgba(192, 192, 192, 0.5);
     box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
 }
+
 .topnav ul.navbar-nav li a {
-background: rgba(192, 192, 192, 0.5);
-color: #686;
+    background: rgba(192, 192, 192, 0.5);
+    color: black;
+    font-family: sans-serif;
+
 }
+
 .topnav ul.navbar-nav li a:hover,
-.topnav ul.navbar-nav li a:focus
- {
-background: white;
-color: red;
-font-size: 20px;
-border-radius: 10px;
+.topnav ul.navbar-nav li a:focus {
+    background: white;
+    color: red;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 .topnav .navbar-brand {
-  background: rgba(192, 192, 192, 0.5);
-  color: #686;
+    background: rgba(192, 192, 192, 0.5);
+    color: black;
+    font-family: sans-serif;
 }
 
 .topnav .navbar-brand:hover,
 .topnav .navbar-brand:focus {
-  background: white;
-  color: red;
-  font-size: 20px;
-  border-radius: 10px;
+    background: white;
+    color: red;
+    font-size: 20px;
+    border-radius: 10px;
 }
+
+
 }
 
 .lead {
     font-size: 18px;
     font-weight: 400;
 }
+
 /*top background*/
-.intro-header { 
+.intro-header {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -64,8 +70,8 @@ border-radius: 10px;
     height: 855px;
 }
 .bg-overlay {
-  background:rgba(0,0,0, 0.3);
-  height: 855px;
+    background: rgba(0, 0, 0, 0.3);
+    height: 855px;
 }
 
 .intro-message {
@@ -73,10 +79,11 @@ border-radius: 10px;
     padding-top: 20%;
     padding-bottom: 20%;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: red;
-}
+/*    -webkit-text-stroke-color: red;
+*/}
+
 /*Big header*/
-.intro-message > h1 {
+.intro-message>h1 {
     margin-top: -50px;
     text-shadow: 2px 1px 2px #000;
     font-size: 5em;
@@ -86,12 +93,13 @@ border-radius: 10px;
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
 /*small header*/
-.intro-message > h3 {
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-  color: black;
+.intro-message>h3 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    color: black;
 }
 
 @media(max-width:767px) {
@@ -99,17 +107,17 @@ border-radius: 10px;
         padding-bottom: 15%;
     }
 
-    .intro-message > h1 {
+    .intro-message>h1 {
         font-size: 3em;
     }
 
-    ul.intro-social-buttons > li {
+    ul.intro-social-buttons>li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
 
-    ul.intro-social-buttons > li:last-child {
+    ul.intro-social-buttons>li:last-child {
         margin-bottom: 0;
     }
 
@@ -117,34 +125,37 @@ border-radius: 10px;
         width: 100%;
     }
 }
+
 /*line*/
 hr.intro-divider {
-  border: 1px outset rgba(255, 255, 255, 0.2);
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-  width: 100%;
+    border: 1px outset rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    width: 100%;
 }
+
 /* social buttons */
 .btn {
-  display: inline-block;
-  color: red;
-  border: 2px outset rgba(0, 0, 0, 0.9);
-  background: white;
-  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-  letter-spacing: 2px;
-  transition: 0.2s;
+    display: inline-block;
+    color: red;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    transition: 0.2s;
 }
 
 .btn:hover {
-	color: white;
-  border: 2px outset rgba(0, 0, 0, 0.9);
-  background: #c12;
-  transform:scale(1.1);
-  transition: 0.2s;
-  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-  letter-spacing: 2px;
+    color: white;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: #c12;
+    transform: scale(1.1);
+    transition: 0.2s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
 }
+
 
 /*section 2*/
 .content-section-a {
@@ -154,150 +165,166 @@ hr.intro-divider {
     height: 855px;
 }
 .bg-overlay2 {
-  margin-top: -50px;
-  background: rgba(255, 255, 255, 0.2);
-  height: 855px;
+    margin-top: -50px;
+    background: rgba(255, 255, 255, 0.2);
+    height: 855px;
 }
-  /*self-taught*/
 .container .link {
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
 }
 .container .link-footer {
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 32px;
 }
 .container .link-footer:hover {
-  color:rgba(24,39,40, 0.8);
-  font-weight: bold;
-  font-size: 32px;
+    color: rgba(24, 39, 40, 0.8);
+    font-weight: bold;
+    font-size: 32px;
 }
 
 .container .link:hover {
-  color: rgb(0,0,128);
-  font-weight: bold;
-  font-size: 22.5px;
+    color: rgb(0, 0, 128);
+    font-weight: bold;
+    font-size: 22.5px;
 }
 
-h2.section-heading {
-    margin-top: 80px;
-    font-size: 3em;
+.section-heading {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 40px;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: red;
-}
+/*    -webkit-text-stroke-color: rgb(204, 0, 0);
+*/}
 
-  /*text*/
- .aboutMe {
+/*text*/
+.aboutMe {
     font-size: 22px;
     font-weight: bold;
     color: white;
+    list-style-type: none;
+    text-indent: 50px;
     text-shadow: 2px 1px 2px #000;
-    background-color: rgba(0,0,0,0.5);
-  }
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.aboutMe2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    list-style-type: none;
+    text-indent: 50px;
+    text-shadow: 2px 1px 2px #000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 /*profile picture*/
 .img-circle {
-  margin-top: 150px;
-  border: 2px outset rgba(255, 255, 255, 0.3);
-  width: 75%;
-  border-radius: 15px;
+    margin-top: 150px;
+    border: 2px outset rgba(255, 255, 255, 0.3);
+    width: 75%;
+    border-radius: 15px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0.0.25);
 }
+
 
 
 /* Portfolio section*/
 section {
-  color: black;
-  background: url('../img/bg003.jpg') no-repeat center center fixed;
-  background-size: cover;
+    color: black;
+    background: url('../img/bg003.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
- #below-section {
-  color: #000;
+#below-section {
+    color: #000;
 }
 
 #small-text {
-  color: white;
+    color: white;
 }
 
 #portfolio .portfolio-item {
-  padding-top: 1%; 
-  height: 400px;
-  border: 1px outset rgba(255, 255, 255, 0.6);
+    padding-top: 1%;
+    height: 400px;
+    border: 1px outset rgba(255, 255, 255, 0.6);
 }
 
 #portfolio .portfolio-item:hover {
-  transition: 0.5s;
-  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+    transition: 0.5s;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(0, 0, 0, .7);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease .5s;
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s,
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s,
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -12px;
-  color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
+    margin-top: -12px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-  margin: 0;
+    margin: 0;
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
-  background-color: rgba(0,0,0, 0.8);
-  text-align: center;
-  padding: 25px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 25px;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 13px;
-  margin: 0;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    margin: 0;
 }
 
 #portfolio * {
-  z-index: 2;
+    z-index: 2;
 }
 
 @media (min-width:767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 0px;
-  }
+    #portfolio .portfolio-item {
+        margin: 0 0 0px;
+    }
 }
 
 .section-heading-spacer {
@@ -314,10 +341,10 @@ section {
 }
 
 .bg-overlay4 {
-  margin-top: -100px;
-  padding: 100px 0;
-  background: rgba(255,255,255, 0.3);
-  height: 755px;
+    margin-top: -100px;
+    padding: 100px 0;
+    background: rgba(255, 255, 255, 0.3);
+    height: 755px;
 }
 
 .banner ul {
@@ -338,19 +365,19 @@ section {
 
 
 
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
+ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+}
 
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
+ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+}
 
 h2.connect {
-   margin: 0;
-   color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 footer {
