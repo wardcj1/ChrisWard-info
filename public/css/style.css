@@ -51,15 +51,11 @@ h6 {
     border-radius: 10px;
 }
 
-
-}
-
 .lead {
     font-size: 18px;
     font-weight: 400;
 }
 
-/*top background*/
 .intro-header {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -68,6 +64,7 @@ h6 {
     background-size: cover;
     height: 855px;
 }
+
 .bg-overlay {
     background: rgba(0, 0, 0, 0.3);
     height: 855px;
@@ -78,10 +75,8 @@ h6 {
     padding-top: 20%;
     padding-bottom: 20%;
     -webkit-text-stroke-width: 1px;
-/*    -webkit-text-stroke-color: red;
-*/}
+}
 
-/*Big header*/
 .intro-message>h1 {
     margin-top: -50px;
     text-shadow: 2px 1px 2px #000;
@@ -95,44 +90,6 @@ h6 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/*small header*/
-.intro-message>h3 {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-    color: black;
-}
-
-@media(max-width:767px) {
-    .intro-message {
-        padding-bottom: 15%;
-    }
-
-    .intro-message>h1 {
-        font-size: 3em;
-    }
-
-    ul.intro-social-buttons>li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons>li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
-}
-
-/*line*/
-hr.intro-divider {
-    border: 1px outset rgba(255, 255, 255, 0.2);
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-    width: 100%;
-}
-
-/* social buttons */
 .btn {
     display: inline-block;
     color: red;
@@ -155,29 +112,31 @@ hr.intro-divider {
     letter-spacing: 2px;
 }
 
-
-/*section 2*/
-.content-section-a {
+.content-section-2 {
     padding: 50px 0;
     background: url('../img/bg002.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 855px;
 }
+
 .bg-overlay2 {
     margin-top: -50px;
     background: rgba(255, 255, 255, 0.2);
     height: 855px;
 }
+
 .container .link {
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 22px;
 }
+
 .container .link-footer {
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 32px;
 }
+
 .container .link-footer:hover {
     color: rgba(24, 39, 40, 0.8);
     font-weight: bold;
@@ -196,11 +155,8 @@ hr.intro-divider {
     font-size: 40px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    -webkit-text-stroke-width: 1px;
-/*    -webkit-text-stroke-color: rgb(204, 0, 0);
-*/}
+}
 
-/*text*/
 .aboutMe {
     font-size: 22px;
     font-weight: bold;
@@ -210,6 +166,7 @@ hr.intro-divider {
     text-shadow: 2px 1px 2px #000;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .aboutMe2 {
     font-size: 22px;
     font-weight: bold;
@@ -220,9 +177,7 @@ hr.intro-divider {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-/*profile picture*/
-.img-circle {
+.img-profile {
     margin-top: 150px;
     border: 2px outset rgba(255, 255, 255, 0.3);
     width: 75%;
@@ -231,9 +186,6 @@ hr.intro-divider {
     background-color: rgba(0, 0, 0.0.25);
 }
 
-
-
-/* Portfolio section*/
 section {
     color: black;
     background: url('../img/bg003.jpg') no-repeat center center fixed;
@@ -292,15 +244,6 @@ section {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-    margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0;
-}
-
 #portfolio .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
@@ -320,16 +263,15 @@ section {
     z-index: 2;
 }
 
-@media (min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 0px;
-    }
-}
-
 .section-heading-spacer {
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
+}
+
+.portfolio-img {
+    height: 200px;
+    width: 100%;
 }
 
 .banner {
@@ -349,20 +291,6 @@ section {
 .banner ul {
     margin-bottom: 0;
 }
-
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
-
 
 ul.banner-social-buttons>li {
     display: block;
