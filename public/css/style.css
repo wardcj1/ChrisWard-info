@@ -32,7 +32,7 @@ h6 {
 .topnav ul.navbar-nav li a:hover,
 .topnav ul.navbar-nav li a:focus {
     background: white;
-    color: red;
+    color: darkslateblue;
     font-size: 20px;
     border-radius: 10px;
 }
@@ -46,7 +46,7 @@ h6 {
 .topnav .navbar-brand:hover,
 .topnav .navbar-brand:focus {
     background: white;
-    color: red;
+    color: darkslateblue;
     font-size: 20px;
     border-radius: 10px;
 }
@@ -92,7 +92,7 @@ h6 {
 
 .btn {
     display: inline-block;
-    color: red;
+    color: darkslateblue;
     border: 2px outset rgba(0, 0, 0, 0.9);
     background: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
@@ -104,7 +104,7 @@ h6 {
 .btn:hover {
     color: white;
     border: 2px outset rgba(0, 0, 0, 0.9);
-    background: #c12;
+    background: darkslateblue;
     transform: scale(1.1);
     transition: 0.2s;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
