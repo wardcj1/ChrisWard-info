@@ -32,7 +32,7 @@ h6 {
 .topnav ul.navbar-nav li a:hover,
 .topnav ul.navbar-nav li a:focus {
     background: white;
-    color: darkslateblue;
+    color: skyblue;
     font-size: 20px;
     border-radius: 10px;
 }
@@ -46,7 +46,7 @@ h6 {
 .topnav .navbar-brand:hover,
 .topnav .navbar-brand:focus {
     background: white;
-    color: darkslateblue;
+    color: skyblue;
     font-size: 20px;
     border-radius: 10px;
 }
@@ -92,7 +92,7 @@ h6 {
 
 .btn {
     display: inline-block;
-    color: darkslateblue;
+    color: skyblue;
     border: 2px outset rgba(0, 0, 0, 0.9);
     background: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
@@ -104,7 +104,7 @@ h6 {
 .btn:hover {
     color: white;
     border: 2px outset rgba(0, 0, 0, 0.9);
-    background: darkslateblue;
+    background: skyblue;
     transform: scale(1.1);
     transition: 0.2s;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
@@ -157,30 +157,32 @@ h6 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.section-heading2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .aboutMe {
     font-size: 22px;
     font-weight: bold;
     color: white;
     list-style-type: none;
-    text-indent: 50px;
     text-shadow: 2px 1px 2px #000;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .aboutMe2 {
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    list-style-type: none;
     text-indent: 50px;
-    text-shadow: 2px 1px 2px #000;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .img-profile {
-    margin-top: 150px;
+    margin-top: 80px;
+    margin-bottom: -40px;
     border: 2px outset rgba(255, 255, 255, 0.3);
-    width: 75%;
+    height: 250px;
     border-radius: 15px;
     padding: 2px;
     background-color: rgba(0, 0, 0.0.25);
@@ -272,6 +274,12 @@ section {
 .portfolio-img {
     height: 200px;
     width: 100%;
+}
+
+.SFDC_cert {
+   float: left;
+   height: 120px;
+   padding-right: 8px; 
 }
 
 .banner {
